@@ -1,0 +1,52 @@
+screen -S screen_name //create simple screen
+screen -dmS rtor      //create  screen and hide one
+
+screen -x rtor  //location to 'rtor'-screen
+echo $TERM      //check screen
+
+
+alias sls="screen -ls"
+
+screen -ls
+OR
+sls
+
+
+
+added ~/.screenrc
+
+screen -t set_window_name
+
+screen top  //start screen and top-tool
+
+screen -XS 8444.pts-0.pc quit
+screen -XS 8481 quit
+screen -r fox  //connect to detach session.
+screen -r 8481 //connect to detach session.
+screen -x	//connect to action session.
+
+-----------
+
+(Ctrt+A) +d     //detach session
+
+-----------
+INFO: http://hlabs.org/development/screen/
+
+//Commands for windows
+(Ctrt+A) + | //vertical slice
+(Ctrt+A) + S //gorizontal slice
+(Ctrt+A) + X //close active slice-window
+(Ctrt+A) + Q //close all, without active slice-window
+
+(Ctrt+A) + " //all windows
+(Ctrt+A) + k //del current window
+(Ctrt+A) + <number> //location to N-window
+(Ctrt+A) + n //next window
+(Ctrt+A) + p //previous window
+(Ctrt+A) + A //set window-name
+(Ctrt+A) + Ctrl + quit	//close all windows in current session and exit.
+
+
+
+
+
