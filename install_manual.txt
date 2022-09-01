@@ -2,6 +2,17 @@
 
 snap install enpass
 
+OR
+
+sudo -i
+echo "deb https://apt.enpass.io/ stable main" > \
+  /etc/apt/sources.list.d/enpass.list
+wget -O - https://apt.enpass.io/keys/enpass-linux.key | tee /etc/apt/trusted.gpg.d/enpass.asc
+apt-get update
+apt-get install enpass
+exit
+
+
 2)
 
 php -v && node -v && npm -v
@@ -43,3 +54,46 @@ rm /etc/apt/sources.list.d/google-chrome.list
 
 google-chrome --profile-directory="Profile 1"   //user first
 google-chrome --profile-directory="Profile 2"   //user second
+
+7) Install telegram
+//https://losst.ru/ustanovka-telegram-ubuntu-18-04
+download telegram.tar.gz
+tar -xvf archive.tar.gz
+
+ln -s /opt/Telegram/Telegram /usr/local/bin/telegram-desktop
+
+8) INSTALL OPERA
+
+https://www.opera.com/uk/browsers
+
+curl -fsSL https://deb.opera.com/archive.key | sudo gpg --dearmor -o /usr/share/keyrings/operabrowser-keyring.gpg 
+echo "deb [signed-by=/usr/share/keyrings/operabrowser-keyring.gpg] https://deb.opera.com/opera-stable/ stable non-free" | sudo tee /etc/apt/sources.list.d/opera-stable.list
+sudo apt-get update
+sudo apt-get install -y opera-stable
+
+9) install docker
+
+curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null
+apt-get update && apt-get upgrade
+apt-get install -y docker-ce docker-ce-cli containerd.io
+
+10) Install docker-composer
+
+curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+11) Install MongoDB
+https://www.mongodb.com/docs/compass/current/install/
+
+//for remove
+sudo dpkg --remove mongodb-compass
+
+wget https://github.com/mongodb-js/compass/releases/download/v1.32.2/mongodb-compass_1.32.2_amd64.deb
+sudo dpkg -i mongodb-compass_1.32.2_amd64.deb
+mongodb-compass
+
+
