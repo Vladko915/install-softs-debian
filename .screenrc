@@ -1,0 +1,12 @@
+# hide start-message
+
+startup_message off
+
+
+# show titles
+
+caption always
+caption string "%{kw}%-w%{wr}%n %t%{-}%+w"
+
+termcapinfo xterm* ti@:te@
+defscrollback 10000
