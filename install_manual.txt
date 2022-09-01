@@ -96,4 +96,33 @@ wget https://github.com/mongodb-js/compass/releases/download/v1.32.2/mongodb-com
 sudo dpkg -i mongodb-compass_1.32.2_amd64.deb
 mongodb-compass
 
+12) SNAP settings
+
+sudo apt-get upgrade
+sudo apt-get install snapd
+sudo snap install core
+sudo snap install mysql-workbench-community
+sudo reboot
+
+14)
+
+sudo apt-get remove nodejs
+sudo apt-get remove npm
+
+Then go to /etc/apt/sources.list.d and remove any node list if you have. Then do a
+
+sudo apt-get update
+
+15) Install Postman Desktop:
+
+wget https://dl.pstmn.io/download/latest/linux64
+cd Downloads/
+tar -xzf postman-linux-x64.tar.gz
+
+sudo mkdir -p /opt/apps/ && \
+sudo mv Postman /opt/apps/ && \
+sudo ln -s /opt/apps/Postman/Postman /usr/local/bin/postman
+postman
+
+
 
