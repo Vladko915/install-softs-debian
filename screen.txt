@@ -48,6 +48,9 @@ INFO: http://hlabs.org/development/screen/
 (Ctrt+A) + [	//enter scrollback/copy mode
 (Ctrt+A) + ]	//close scrollback/copy mode
 
+#install another screenrc
+screen -c ~/.screenrc_next -S NEW_SCREEN_TITLE
+
 
 
 
