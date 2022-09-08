@@ -45,6 +45,8 @@ INFO: http://hlabs.org/development/screen/
 (Ctrt+A) + p //previous window
 (Ctrt+A) + A //set window-name
 (Ctrt+A) + Ctrl + quit	//close all windows in current session and exit.
+(Ctrt+A) + [	//enter scrollback/copy mode
+(Ctrt+A) + ]	//close scrollback/copy mode
 
 
 
