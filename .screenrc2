@@ -1,0 +1,22 @@
+startup_message off
+
+
+caption always
+caption string &quot;%{kw}%-w%{wr}%n %t%{-}%+w&quot;
+
+termcapinfo xterm* ti@:te@
+defscrollback 10000
+
+
+chdir /home/user
+screen -t WORK
+
+chdir /var/www/project.pro/public_html
+screen -t TITLE1
+
+chdir /var/www/project2.pro/public_html
+screen -t TITLE2
+
+
+# start/action first folder 
+select 1
