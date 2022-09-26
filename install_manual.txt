@@ -1,3 +1,7 @@
+0)
+
+cd ~ && ln -s Завантажене _loads && ln -s Документи _docs
+
 1)
 
 snap install enpass
