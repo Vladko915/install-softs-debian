@@ -1,6 +1,6 @@
 0)
 
-cd ~ && ln -s Завантажене _loads && ln -s Документи _docs
+cd ~ && ln -s Завантажене _loads && ln -s Документи _docs && ln -s Стільниця _desktop
 
 1)
 
