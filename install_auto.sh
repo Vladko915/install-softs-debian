@@ -10,4 +10,5 @@ pulseaudio-equalizer pavucontrol bc sl snapd cowsay \
 screen pup \
 thunderbird thunderbird-l10n-uk \
 klavaro ktouch \
-drawing kolourpaint
+drawing kolourpaint dia \
+thunderbird thunderbird-l10n-uk
