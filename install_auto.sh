@@ -11,4 +11,5 @@ screen pup \
 thunderbird thunderbird-l10n-uk \
 klavaro ktouch \
 drawing kolourpaint dia \
-thunderbird thunderbird-l10n-uk
+thunderbird thunderbird-l10n-uk \
+geany
