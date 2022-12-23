@@ -128,5 +128,9 @@ sudo mv Postman /opt/apps/ && \
 sudo ln -s /opt/apps/Postman/Postman /usr/local/bin/postman
 postman
 
+16)  sudo apt-get install gnome-boxes  //needed, virtual-box
+
+sudo apt install spice-vdagent spice-webdavd // ?
+genisoimage -v -J -r -V MY_DISK_LABEL2 -o /home/user/hello.iso /home/user/_hello //?
 
 
