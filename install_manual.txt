@@ -138,3 +138,5 @@ genisoimage -v -J -r -V MY_DISK_LABEL2 -o /home/user/hello.iso /home/user/_hello
 for testing:
 >ifconfig | grep broadcast | awk '{print $2}'
 
+
+18) Installing NVM on Debian
