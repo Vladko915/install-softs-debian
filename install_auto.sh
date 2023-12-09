@@ -12,4 +12,4 @@ thunderbird thunderbird-l10n-uk \
 klavaro ktouch \
 drawing kolourpaint dia \
 thunderbird thunderbird-l10n-uk \
-geany powertop
+geany powertop workrave
