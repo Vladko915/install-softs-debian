@@ -12,4 +12,5 @@ thunderbird thunderbird-l10n-uk \
 klavaro ktouch \
 drawing kolourpaint dia \
 thunderbird thunderbird-l10n-uk \
-geany powertop workrave
+geany powertop workrave \
+httpie
