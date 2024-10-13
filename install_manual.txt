@@ -56,6 +56,10 @@ apt-get remove google-chrome-stable //remove
 maybe(if error '..configured multiple time...'): 
 rm /etc/apt/sources.list.d/google-chrome.list
 
+
+//search folder-profile-name
+cd  ~/.config/google-chrome/
+google-chrome --profile-directory="Default"    //default user
 google-chrome --profile-directory="Profile 1"   //user first
 google-chrome --profile-directory="Profile 2"   //user second
 
