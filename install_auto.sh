@@ -7,7 +7,7 @@ git composer policykit-1-gnome timeshift \
 nodejs npm apt-transport-https coreutils \
 gconf-service gconf2-common libgconf-2-4 gdebi \
 pulseaudio-equalizer pavucontrol bc sl snapd cowsay \
-screen pup \
+screen pup tree\
 thunderbird thunderbird-l10n-uk \
 klavaro ktouch \
 drawing kolourpaint dia \
