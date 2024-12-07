@@ -16,5 +16,5 @@ user_folder='/home/user' \
 && echo -e "\nZIP archiving started...\n" \
 && zip -r  "${backup_folder_zip}" "${backup_folder}" \
 && echo -e "\nZIP archiving finished...\n" \
-&& echo -e "Create: $(du -sh $backup_folder)\n" \
+&& echo -e "Created: $(du -sh $backup_folder)\n" \
 && echo -e "Created: $(du -sh $backup_folder_zip)\n";
