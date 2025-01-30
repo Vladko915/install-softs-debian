@@ -155,3 +155,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 nvm --version
 nvm install --lts
 
+nvm ls-remote
+nvm install v22.13.1
+nvm use v22.13.1
+
+
