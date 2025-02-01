@@ -1,7 +1,10 @@
 # Use root/your_pass as user/password credentials
 #------------------------------------------------------------
-# sudo docker-compose -f docker_compose_mongodb.yml up -d
+# sudo docker-compose -f docker_compose_mongodb.yml up -d   //start
+# 
 # show http://localhost:8081
+#
+# sudo docker-compose -f docker_compose_mongodb.yml down  //remove
 #-----------------------------------------------------------
 
 version: '3.1'
