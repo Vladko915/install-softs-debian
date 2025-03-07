@@ -11,6 +11,7 @@ screen pup tree\
 thunderbird thunderbird-l10n-uk \
 klavaro ktouch \
 drawing kolourpaint dia \
+smplayer \
 thunderbird thunderbird-l10n-uk \
 geany powertop workrave \
 httpie
