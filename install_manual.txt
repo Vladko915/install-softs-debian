@@ -64,10 +64,12 @@ google-chrome --profile-directory="Profile 1"   //user first
 google-chrome --profile-directory="Profile 2"   //user second
 
 7) Install telegram
+
+sudo snap install telegram-desktop
+OR
 //https://losst.ru/ustanovka-telegram-ubuntu-18-04
 download telegram.tar.gz
 tar -xvf archive.tar.gz
-
 ln -s /opt/Telegram/Telegram /usr/local/bin/telegram-desktop
 
 8) INSTALL OPERA
