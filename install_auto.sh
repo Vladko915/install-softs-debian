@@ -1,6 +1,7 @@
 #!/bin/bash
 
 apt-get install -y mc curl jq pup php7.4 wireguard \
+traceroute \
 cmatrix okular dos2unix unar zip mailutils \
 sendemail apt-transport-https sudo screen \
 git composer policykit-1-gnome timeshift \
