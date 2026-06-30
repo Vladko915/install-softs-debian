@@ -162,3 +162,24 @@ nvm install v22.13.1
 nvm use v22.13.1
 
 
+19)
+
+sudo apt install wireshark
+sudo usermod -aG wireshark $USER
+
+//check
+ip a
+ip neigh
+ip maddr
+
+//testing
+
+//invoke target's
+nc -u -l -p 9000
+
+//source
+echo "broadcast test7" | nc -u -w 1 -b 192.168.0.255 9000
+OR
+for ip in 192.168.0.10; do     echo "hello" | nc $ip 9000; done
+
+
