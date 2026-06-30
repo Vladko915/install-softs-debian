@@ -176,6 +176,8 @@ ip maddr
 
 //invoke target's
 nc -u -l -p 9000
+OR
+sudo tcpdump -ni any udp port 9000
 
 //source
 echo "broadcast test7" | nc -u -w 1 -b 192.168.0.255 9000
